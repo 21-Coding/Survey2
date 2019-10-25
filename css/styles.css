@@ -4,16 +4,32 @@ body {
 
 .go {
   display: none;
+  float: right;
 }
 
 .python {
   display: none;
+  float: right;
 }
 
 .rust {
   display: none;
+  float: right;
 }
 
 .error {
   display: none;
+  float: right;
+}
+
+.card {
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
 }
