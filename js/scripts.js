@@ -15,8 +15,8 @@ $(document).ready(function(event){
     console.log(results);
 
     if (results >= 8 && results <= 12 ){
-      $(".go").slideDown();
-      
+      $(".go").fadeIn();
+      $(".hide-form").fadeOut();
       $("body").removeClass();
     $("body").addClass("go-class");
     } else if (results >= 12 && results <= 25){
