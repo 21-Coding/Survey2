@@ -1,9 +1,6 @@
 $(document).ready(function(event){
-
   $("form#form").submit(function(event){
     event.preventDefault();
-
-
     var name = $("#username").val();
     var holiday = parseInt($("#holiday").val());
     var color = parseInt($("#color").val());
@@ -29,9 +26,8 @@ $(document).ready(function(event){
       $(".hide-form").hide();
       $("body").removeClass();
     $("body").addClass("rust-class");
-
     }
-     
+
     $(".text").text(name);
 
 

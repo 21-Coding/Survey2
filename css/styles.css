@@ -49,10 +49,13 @@ body {
   border: 15px solid grey;
   padding: 10px;
   overflow: scroll;
-  
+
 
 }
 
+button {
+  margin-top: 10px;
+}
 
 
 .go-class {
