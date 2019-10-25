@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  $().submit(function(event) {
+  $("form#form").submit(function(event) {
     event.preventDefault();
 
 
-    var name = $().val();
-  })
+    var name = $("#username").val();
+  });
