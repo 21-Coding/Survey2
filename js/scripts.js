@@ -17,7 +17,7 @@ $(document).ready(function(event){
     if (results >= 8 && results <= 12 ){
       $(".go").fadeIn();
       $(".hide-form").hide();
-      $("body").removeClass();
+      $("body, card").removeClass();
     $("body").addClass("go-class");
     } else if (results >= 12 && results <= 25){
       $(".python").show();
