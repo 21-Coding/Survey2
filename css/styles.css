@@ -41,13 +41,16 @@ img {
 
 .go-class {
   background-color: dodgerblue;
+  color: gray;
 }
 
 .python-class {
-  background-color: dodgerblue;
+  background-color: yellow;
+  color: navy;
 }
 .rust-class {
-  background-color: dodgerblue;
+  background-color: seagreen;
+  color: white;
 }
 .error-class {
   background-color: dodgerblue;
