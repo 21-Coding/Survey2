@@ -30,12 +30,8 @@ $(document).ready(function(event){
       $("body").removeClass();
     $("body").addClass("rust-class");
 
-    } else {
-      $(".error").fadeIn();
-      $(".hide-form").hide();
-      $("body").removeClass();
-    $("body").addClass("error-class");
     }
+     
     $(".text").text(name);
 
 
