@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("form#form").submit(function(event) {
+  $("form#form").submit(function(event){
     event.preventDefault();
 
     var name = $("#username").val();
@@ -11,6 +11,18 @@ $(document).ready(function(){
 
     var results = holiday + color + movieGenre + weather + candy;
     console.log(results);
+
+    if (results >= 8 && results <= 12 ){
+      $(".show, .go").show();
+    } else if (results >= 12 && results <= 25){
+      $(".show, .python").show();
+    } else if (results >= 26){
+      $(".show, .python").show();
+    } else {
+      $(".show, .rust").show();
+
+    }
+    $(".text").text(name);
 
 
   });
