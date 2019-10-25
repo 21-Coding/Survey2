@@ -1,5 +1,6 @@
 body {
   background-color: red;
+  position: relative;
 }
 
 p {
@@ -8,12 +9,12 @@ p {
   border: 15px solid black;
   padding: 20px;
   margin: 20px;
-  
+
 }
 .go {
   display: none;
-  float: left;
-  text-align: left;
+  float: right;
+  text-align: center;
 
 
 
@@ -23,26 +24,32 @@ p {
 .python {
   display: none;
   float: right;
+  text-align: center;
 
 }
 
 .rust {
   display: none;
   float: right;
+  text-align: center;
 
 }
 
 .error {
   display: none;
   float: right;
+  text-align: center;
+
 
 }
 
 .card {
+  position: absolute;
   width: 300px;
   border: 15px solid black;
   padding: 50px;
   margin: 20px;
+
 }
 
 img {
@@ -54,7 +61,7 @@ img {
 
 .go-class {
   background-color: dodgerblue;
-  color: gray;
+  color: white;
 }
 
 .python-class {
