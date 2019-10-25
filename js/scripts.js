@@ -17,10 +17,9 @@ $(document).ready(function(){
     } else if (results >= 12 && results <= 25){
       $(".show, .python").show();
     } else if (results >= 26){
-      $(".show, .python").show();
-    } else {
       $(".show, .rust").show();
-
+    } else {
+      $(".show, .error").show();
     }
     $(".text").text(name);
 

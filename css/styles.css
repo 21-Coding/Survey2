@@ -13,3 +13,7 @@ body {
 .rust {
   display: none;
 }
+
+.error {
+  display: none;
+}
