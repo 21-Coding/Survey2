@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: black;
 
 }
 
@@ -41,21 +41,21 @@ body {
 }
 
 .card {
+  background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250' viewBox='0 0 20 20'%3E%3Cg %3E%3Cpolygon fill='%23000000' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%23000000' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
+
 
   margin: auto;
   height: 300px;
   width: 50%;
-  border: 3px solid green;
+  border: 15px solid grey;
   padding: 10px;
   overflow: scroll;
+  color: red;
 
 }
 
-img {
-float: right;
-height: 200px;
-width: 200px;
-}
+
 
 .go-class {
   background-color: dodgerblue;
