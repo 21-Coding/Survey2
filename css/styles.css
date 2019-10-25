@@ -4,7 +4,7 @@ body {
 
 .go {
   display: none;
-  
+
 
 }
 
@@ -40,5 +40,15 @@ img {
 }
 
 .go-class {
+  background-color: dodgerblue;
+}
+
+.python-class {
+  background-color: dodgerblue;
+}
+.rust-class {
+  background-color: dodgerblue;
+}
+.error-class {
   background-color: dodgerblue;
 }

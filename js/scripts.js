@@ -19,10 +19,20 @@ $(document).ready(function(){
     $("body").addClass("go-class");
     } else if (results >= 12 && results <= 25){
       $(".python").show();
+      $(".card").slideUp();
+      $("body").removeClass();
+    $("body").addClass("python-class");
     } else if (results >= 26){
       $(".rust").show();
+      $(".card").slideUp();
+      $("body").removeClass();
+    $("body").addClass("rust-class");
+
     } else {
       $(".error").show();
+      $(".card").slideUp();
+      $("body").removeClass();
+    $("body").addClass("error-class");
     }
     $(".text").text(name);
 
