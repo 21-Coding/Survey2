@@ -14,6 +14,7 @@ $(document).ready(function(){
 
     if (results >= 8 && results <= 12 ){
       $(".go").show();
+      $(".card").slideUp();
       $("body").removeClass();
     $("body").addClass("go-class");
     } else if (results >= 12 && results <= 25){
