@@ -15,7 +15,7 @@ $(document).ready(function(event){
     console.log(results);
 
     if (results >= 8 && results <= 12 ){
-      $(".go").show();
+      $(".go").slideDown();
       $(".card").slideUp();
       $("body").removeClass();
     $("body").addClass("go-class");
