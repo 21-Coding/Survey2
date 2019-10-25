@@ -12,5 +12,6 @@ $(document).ready(function(){
     var results = holiday + color + movieGenre + weather + candy;
     console.log(results);
 
-    
+
   });
+});
