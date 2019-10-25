@@ -4,22 +4,22 @@ body {
 
 .go {
   display: none;
-  float: right;
+
 }
 
 .python {
   display: none;
-  float: right;
+
 }
 
 .rust {
   display: none;
-  float: right;
+
 }
 
 .error {
   display: none;
-  float: right;
+  
 }
 
 .card {

@@ -13,13 +13,13 @@ $(document).ready(function(){
     console.log(results);
 
     if (results >= 8 && results <= 12 ){
-      $(".show, .go").show();
+      $(".go").show();
     } else if (results >= 12 && results <= 25){
-      $(".show, .python").show();
+      $(".python").show();
     } else if (results >= 26){
-      $(".show, .rust").show();
+      $(".rust").show();
     } else {
-      $(".show, .error").show();
+      $(".error").show();
     }
     $(".text").text(name);
 
