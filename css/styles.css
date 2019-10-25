@@ -6,7 +6,7 @@ body {
 
 .go {
   display: none;
-  float: right;
+  
   text-align: center;
 
 
@@ -16,21 +16,21 @@ body {
 
 .python {
   display: none;
-  float: right;
+
   text-align: center;
 
 }
 
 .rust {
   display: none;
-  float: right;
+
   text-align: center;
 
 }
 
 .error {
   display: none;
-  float: right;
+
   text-align: center;
 
 

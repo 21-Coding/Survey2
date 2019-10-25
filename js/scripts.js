@@ -17,22 +17,22 @@ $(document).ready(function(event){
     if (results >= 8 && results <= 12 ){
       $(".go").fadeIn();
       $(".hide-form").hide();
-      $("body, card").removeClass();
+      $("body").removeClass();
     $("body").addClass("go-class");
     } else if (results >= 12 && results <= 25){
-      $(".python").show();
-      $(".card").slideUp();
+      $(".python").fadeIn();
+      $(".hide-form").hide();
       $("body").removeClass();
     $("body").addClass("python-class");
     } else if (results >= 26){
-      $(".rust").show();
-      $(".card").slideUp();
+      $(".rust").fadeIn();
+      $(".hide-form").hide();
       $("body").removeClass();
     $("body").addClass("rust-class");
 
     } else {
-      $(".error").show();
-      $(".card").slideUp();
+      $(".error").fadeIn();
+      $(".hide-form").hide();
       $("body").removeClass();
     $("body").addClass("error-class");
     }
