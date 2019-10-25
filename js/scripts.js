@@ -14,6 +14,8 @@ $(document).ready(function(){
 
     if (results >= 8 && results <= 12 ){
       $(".go").show();
+      $("body").removeClass();
+    $("body").addClass("go-class");
     } else if (results >= 12 && results <= 25){
       $(".python").show();
     } else if (results >= 26){

@@ -4,7 +4,7 @@ body {
 
 .go {
   display: none;
-  float: right;
+  
 
 }
 
@@ -37,4 +37,8 @@ img {
   height: 100px;
   width: 100px;
 
+}
+
+.go-class {
+  background-color: dodgerblue;
 }
