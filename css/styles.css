@@ -2,8 +2,20 @@ body {
   background-color: red;
 }
 
+p {
+  width: 300px;
+  height: 300px;
+  border: 15px solid black;
+  padding: 20px;
+  margin: 20px;
+  
+}
 .go {
   display: none;
+  float: left;
+  text-align: left;
+
+
 
 
 }
@@ -36,6 +48,7 @@ body {
 img {
   height: 100px;
   width: 100px;
+  float: right;
 
 }
 
