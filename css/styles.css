@@ -3,7 +3,20 @@ body {
 
 }
 
+.title {
+  text-align: center;
+  font-family: 'Monoton', regular;
+  color: white;
 
+}
+
+
+
+
+.name {
+  font-family: 'Candal', sans-serif;
+
+}
 .go {
   display: none;
 
@@ -60,17 +73,19 @@ button {
 
 .go-class {
   background-color: dodgerblue;
+  font-family: 'Livvic', sans-serif;
 
 }
 
 .python-class {
-  background-color: yellow;
+  background-color: gold;
   color: navy;
+  font-family: 'Livvic', sans-serif;
+
 }
 .rust-class {
   background-color: seagreen;
+  font-family: 'Livvic', sans-serif;
+  color: seagreen;
 
-}
-.error-class {
-  background-color: dodgerblue;
 }
