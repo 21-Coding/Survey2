@@ -14,12 +14,21 @@
 </head>
 
 <body>
-  <h1 class="title">Code-Tuition</h1>
+  <h1 class="title">Code-Tuition 2</h1>
   <div class="card">
     <div class="hide-form">
       <form id="form" action="index.html" method="post">
         <label class="name" for="name">Prospect Name:</label>
-        <input class="username" id="username" type="text">
+        <input class="username" id="username" type="text" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="undecided">Undecided</option>
+
+        </select>
+
         <label for="color">After you "borrow" someones netflix account which category do you dive into?</label>
         <select id="movieGenre" name="movieGenre">
           <option value="2">Thriller</option>
